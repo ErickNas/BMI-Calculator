@@ -1,0 +1,69 @@
+body {
+	display: flex;
+	background-color: #e3e2d3;
+	padding: 10px;
+	margin: 25px 100px;
+}
+
+div#landing-page {
+	background-color: #77E1C9;
+	border-radius: 5px;
+	margin: 0 auto 0 auto;
+	padding: 30px 150px 50px 150px;
+	box-shadow: 7px 7px 8px rgb(54, 51, 51);
+	border: 2.5px solid black;
+}
+
+p {
+	font-size: 25px;
+	font-weight: bold;
+	color: #e4886de1;
+	text-shadow: 3.2px 3.2px 2px #242525f6;
+	text-align: center;
+	font-family: sans-serif;
+	margin: 10px auto;
+}
+
+p#imc, p#msg {
+	font-size: 25px;
+	color:#ce7d64e1;
+	text-shadow: 0.8px 1px rgb(59, 52, 52);
+	text-decoration: underline black;
+	text-align: center;
+	font-family: sans-serif;
+	margin: 5px auto 0 auto;
+}
+
+p.nome-aplicacao {
+	font-size: 40px;
+	color: #a07769;
+	text-shadow: 3px 2.5px 1.5px rgba(36, 32, 32, 0.87);
+	font-weight: bold;
+	text-align: center;
+	font-family: sans-serif;
+	margin: 0px auto 25px auto;
+}
+
+input {
+	display: flex;
+	padding: 8px;
+	border: 2px solid #868686;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+button {
+	display: flex;
+	background-color: #9ad9c3;
+	padding: 10px 10px;
+	margin: 15px auto 20px auto;
+	border-radius: 4px;
+	font-size: 16px;
+	box-shadow: 3px 3px 0 #2e302ff6;
+	border: 1px solid black;
+	transition: 0.3s ease-in;
+}
+
+button:hover {
+	background-color: #28d196;
+}

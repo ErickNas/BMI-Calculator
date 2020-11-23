@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculadora IMC</title>
+	<link href="style.css" rel="stylesheet" />
+	<link rel="icon" type="imagem/png" href="iconeImc.png" alt="icone calcular imc"/>
+</head>
+
+<body>
+	<div id="landing-page">
+		<p class="nome-aplicacao">Calculadora de IMC</p>
+		<p class="geral">Coloque sua Altura</p>
+		<input type="number" id="alturaUsuario" placeholder="ex: 1.70"/>
+		<p class="geral">Colque seu Peso </p>
+		<input type="number" id="pesoUsuario" placeholder="ex: 65"/>
+		<button id="calcular" onClick="calcularImc()">CALCULAR</button>
+		
+		<p id="imc"></p>
+		<p id="msg"></p>
+	</div>
+	
+	<script src="script.js"></script>
+</body>
+</html>
